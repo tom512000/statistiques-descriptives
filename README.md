@@ -2,6 +2,5 @@
 
 ## Sommaire :
 - ✅ Statistiques descriptives univariées
-- ❌ Statistiques descriptives bivariées
+- ✅ Statistiques descriptives bivariées
 - ❌ Découverte de Pandas (complémentaire)
-

@@ -1,0 +1,32 @@
+Variable qualitative : opérations sur les valeurs pas de sens
+Variable qualitative ordinale : semble avoir un ordre naturel.
+Variable qualitative nominale : sinon.
+Variable quantitative : opérations sur les valeurs possibles.
+Variable quantitative discrète : lister l’ensemble des valeurs possibles.
+Variable quantitative continue : sinon.
+
+moyenne : somme / compte tout
+médiane : valeur au milieu de la liste q2
+quantile : 2 valeurs au milieu de la liste mais divisés
+
+écart-type : racine carrée de la moyenne des écarts au carré entre les valeurs
+coefficient de variation : le rapport entre l’écart-type et la moyenne, exprimé comme un pourcentage de la moyenne
+étendue : max liste - min liste
+écart interquartiles : entre le quantile à 0,75 et le quantile à 0,25
+
+coefficient de Bravais-Pearson : 
+- on centre les variables X et Y
+- on les multiplie terme à terme
+- on fait la moyenne de la série obtenue
+- on divise le résultat précédent par le produit des écarts-types de X et Y
+
+coefficient de corrélation de rangs de Spearman :
+on convertit chaque valeur par son rang dans sa série
+on calcule le coefficient de Bravais-Pearson entre ces deux nouvelles séries
+
+boîtes à moustaches :
+- ligne v gauche min
+- ligne v droite min
+- ligne v milieu médiane
+- ligne v milieu gauche q1
+- ligne v milieu droite q3
